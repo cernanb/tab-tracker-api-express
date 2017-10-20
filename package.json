@@ -7,7 +7,9 @@
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "sequelize": "^4.8.0",
+    "sqlite3": "3.1.8"
   },
   "scripts": {
     "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'yarn lint && node'",
